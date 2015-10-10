@@ -20,7 +20,7 @@ package com.antonioleiva.mvpexample.app.main;
 
 import java.util.List;
 
-public interface OnFinishedListener {
-
+public interface OnFinishedListener
+{
     void onFinished(List<String> items);
 }

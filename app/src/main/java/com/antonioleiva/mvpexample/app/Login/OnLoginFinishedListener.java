@@ -18,8 +18,11 @@
 
 package com.antonioleiva.mvpexample.app.Login;
 
-public interface OnLoginFinishedListener {
-
+/**
+ * OnLoginFinishedListener for checking the Error and success when user is logging
+ */
+public interface OnLoginFinishedListener
+{
     public void onUsernameError();
 
     public void onPasswordError();

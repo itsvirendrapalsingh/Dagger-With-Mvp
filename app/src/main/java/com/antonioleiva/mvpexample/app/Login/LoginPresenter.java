@@ -18,6 +18,7 @@
 
 package com.antonioleiva.mvpexample.app.Login;
 
-public interface LoginPresenter {
+public interface LoginPresenter
+{
     public void validateCredentials(String username, String password);
 }

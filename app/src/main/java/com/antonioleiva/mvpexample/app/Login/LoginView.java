@@ -18,7 +18,11 @@
 
 package com.antonioleiva.mvpexample.app.Login;
 
-public interface LoginView {
+/**
+ * LoginView Interface for showing the view result on the screen
+ */
+public interface LoginView
+{
     public void showProgress();
 
     public void hideProgress();
